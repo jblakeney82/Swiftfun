@@ -3,8 +3,8 @@
 //  Swift Fun
 //
 //  Created by Jeremy Blakeney on 7/31/17.
-//  Copyright © 2017 Jeremy Blakeney. All rights reserved.
-//
+//  Copyright © 2017 Jeremy Blakeney. All rights reserved...
+// My favorite food is pizza
 
 import UIKit
 
