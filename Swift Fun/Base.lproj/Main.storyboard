@@ -17,8 +17,8 @@
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Weather" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="OKF-tR-5zt">
-                                <rect key="frame" x="155" y="323" width="65" height="21"/>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="My Name is" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="OKF-tR-5zt">
+                                <rect key="frame" x="143" y="323" width="89.5" height="21"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
@@ -36,7 +36,9 @@
                             <constraint firstItem="OKF-tR-5zt" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="DvW-Sp-2tC"/>
                             <constraint firstItem="mgG-xB-vcv" firstAttribute="top" secondItem="OKF-tR-5zt" secondAttribute="bottom" constant="10" id="HDn-QF-qWQ"/>
                             <constraint firstItem="mgG-xB-vcv" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="Yul-Zo-unk"/>
+                            <constraint firstItem="OKF-tR-5zt" firstAttribute="centerY" secondItem="8bC-Xf-vdC" secondAttribute="centerY" id="b5a-go-xwF"/>
                             <constraint firstItem="OKF-tR-5zt" firstAttribute="centerY" secondItem="8bC-Xf-vdC" secondAttribute="centerY" id="kSP-63-2aq"/>
+                            <constraint firstItem="OKF-tR-5zt" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="s0P-NK-euP"/>
                         </constraints>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                     </view>

@@ -27,7 +27,7 @@ class ViewController: UIViewController {
             
             myLabel.text = "You Did It!"
         }
-        if buttoncount >= 15 {
+        if buttoncount == 15 {
           
             
             view.backgroundColor = UIColor.green
@@ -35,7 +35,13 @@ class ViewController: UIViewController {
             myLabel.text = "Kim has nice boobies"
         }
         
-        
+        if buttoncount == 20 {
+            
+            view.backgroundColor = UIColor.blue
+            
+            myLabel.text = "But Jeremy's are BIGGER!"
+            
+        }
     }
     
     override func viewDidLoad() {
