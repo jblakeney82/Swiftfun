@@ -10,14 +10,39 @@ import UIKit
 
 class ViewController: UIViewController {
 
-    var buttoncount = 0
+    // var buttoncount = 0
     
     @IBOutlet weak var myLabel: UILabel!
+    @IBOutlet weak var TopTextField: UITextField!
+    @IBOutlet weak var BottomTextField: UITextField!
     
+    @IBOutlet weak var additionswitch: UISwitch!
     
     @IBAction func Buttontapped(_ sender: Any) {
+    
+        let addition = additionswitch.isOn
         
-        buttoncount = buttoncount + 1
+        if addition {
+            let sum = Double(TopTextField.text!)! + Double(BottomTextField.text!)!
+            
+            myLabel.text = "\(TopTextField.text!) + \(BottomTextField.text!) = \(sum)"
+            
+        } else {
+            
+            let sum = Double(TopTextField.text!)! - Double(BottomTextField.text!)!
+            
+            myLabel.text = "\(TopTextField.text!) - \(BottomTextField.text!) = \(sum)"
+        }
+        
+        
+        
+        
+        
+        print (TopTextField.text!)
+        print(BottomTextField.text!)
+        
+        /*
+  buttoncount += 1
         
         print (buttoncount)
         
@@ -42,7 +67,10 @@ class ViewController: UIViewController {
             myLabel.text = "But Jeremy's are BIGGER!"
             
         }
-    }
+*/
+
+ }
+    
     
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -57,6 +85,4 @@ class ViewController: UIViewController {
         // Dispose of any resources that can be recreated.
     }
 
-
 }
-
